@@ -13,5 +13,12 @@ pipeline {
               	    echo "repo cloned successfully"  
               	    }  
          	    } 
+				
+				stage("SRinfotech") {  
+           	    steps {  
+              	    echo "cloning repository" 
+              	    echo "repo cloned successfully"  
+              	    }  
+         	    } 
         }
 }
