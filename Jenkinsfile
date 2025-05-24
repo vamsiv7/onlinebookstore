@@ -14,6 +14,7 @@ pipeline {
               	    }  
          	    } 
 				
+				
 				stage("SRinfotech") {  
            	    steps {  
               	    echo "cloning repository" 
